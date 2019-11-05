@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  background-color:rgb(50, 25, 16);
+}
+.circle{
+	position: relative;
+display: inline-block;
+	width: 100px;
+	height: 50px;
+	background-color: black;
+
+}
+
+.B{
+  position: absolute;
+  top: 20px;
+}
+
+.upperB{
+  position: absolute;
+  left: 300px;
+  height: 200px;
+  width: 250px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: rgb(247, 173, 9);
+}
+.upperBhole{
+  position: relative;
+  left: 300px;
+  top: 50px;
+  left: 50px;
+  height: 100px;
+  width: 100px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgb(50, 25, 16);
+}
+
+#lowerB{
+  top: 200px;
+}
+
+.U{
+  position:absolute;
+  left: 600px;
+  top: 400px;
+  height: 400px;
+  width: 250px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: rgb(247, 173, 9);
+}
+
+.innerU{
+  position: relative;
+  left: 50px;
+  height: 330px;
+  width: 150px;
+  border-bottom-left-radius: 165px;
+  border-bottom-right-radius: 165px;
+  background-color: rgb(50, 25, 16);
+
+}
+
+.R{
+  position:absolute;
+  top: 800px;
+}
+
+#upperR {
+  left: 900px;
+}
+
+.Rstem{
+  position: relative;
+  height:295px;
+  width: 50px;
+  background-color: rgb(247, 173, 9);
+}
+
+.Rleg{
+  position: relative;
+  left: 50px;
+  bottom: 230px;
+  height:230px;
+  width:200px;
+  border-top-right-radius: 100%;
+  background-color: rgb(247, 173, 9);
+}
+
+.innerRleg{
+  top: 40px;
+  position:relative;
+  height: 190px;
+  width: 150px;
+  border-top-right-radius: 100%;
+  background-color: rgb(50, 25, 16);
+}
+
+.Y{
+  position:absolute;
+  top: 1300px;
+}
+.upperY{
+  position: absolute;
+  left: 1170px;
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-top: 250px solid rgb(247, 173, 9);
+}
+
+.upperYwedge{
+  position:relative;
+  right: 60px;
+  bottom: 250px;
+  width: 0;
+  height: 0;
+  border-left: 64.5px solid transparent;
+  border-right: 64.5px solid transparent;
+  border-top: 125px solid rgb(50, 25, 16);
+}
+
+.Ystem{
+  position: relative;
+  top: 190px;
+  left: 1269px;
+  width: 50px;
+  height: 210px;
+  background-color: rgb(247, 173, 9);
+}
+
+@media  screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (orientation: portrait) {
+  .upperB{
+    left: 50px;
+  }
+  .U{
+    top:500px;
+    left: 50px;
+  }
+  .R{
+    top: 1000px;
+  }
+
+  #upperR{
+    left: 50px;
+  }
+  .Y{
+    top: 1600px;
+  }
+  .upperY{
+    left: 50px;
+  }
+
+  .Ystem{
+    left:150px;
+  }
+}

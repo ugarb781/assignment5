@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+
+.container{
+  position: absolute;
+	left:0;
+	top:0;
+	height:100vh;
+	width: 100vw;
+}
+.circle{
+	position: relative;
+display: inline-block;
+	width: 100px;
+	height: 50px;
+	background-color: black;
+
+}
+
+.B{
+  position: absolute;
+  top: 300px;
+}
+
+.upperB{
+  position: absolute;
+  left: 300px;
+  height: 200px;
+  width: 250px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: rgb(222, 125, 11);
+}
+.upperBhole{
+  position: relative;
+  left: 300px;
+  top: 50px;
+  left: 50px;
+  height: 100px;
+  width: 100px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: black;
+}
+
+#lowerB{
+  top: 200px;
+}
+
+.U{
+  position:absolute;
+  left: 600px;
+  top: 300px;
+  height: 400px;
+  width: 250px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: rgb(222, 125, 11);
+}
+
+.innerU{
+  position: relative;
+  left: 50px;
+  height: 330px;
+  width: 150px;
+  border-bottom-left-radius: 165px;
+  border-bottom-right-radius: 165px;
+  background-color: black;
+
+}
+
+.R{
+  position:absolute;
+  top: 300px;
+}
+
+#upperR {
+  left: 900px;
+}
+
+.Rstem{
+  position: relative;
+  height:295px;
+  width: 50px;
+  background-color: rgb(222, 125, 11);
+}
+
+.Rleg{
+  position: relative;
+  left: 50px;
+  bottom: 230px;
+  height:230px;
+  width:200px;
+  border-top-right-radius: 100%;
+  background-color: rgb(222, 125, 11);
+}
+
+.innerRleg{
+  top: 40px;
+  position:relative;
+  height: 190px;
+  width: 150px;
+  border-top-right-radius: 100%;
+  background-color: black;
+}
+
+.Y{
+  position:absolute;
+  top: 300px;
+}
+.upperY{
+  position: absolute;
+  left: 1170px;
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-top: 250px solid rgb(222, 125, 11);
+}
+
+.upperYwedge{
+  position:relative;
+  right: 60px;
+  bottom: 250px;
+  width: 0;
+  height: 0;
+  border-left: 64.5px solid transparent;
+  border-right: 64.5px solid transparent;
+  border-top: 125px solid black;
+}
+
+.Ystem{
+  position: relative;
+  top: 190px;
+  left: 1269px;
+  width: 50px;
+  height: 210px;
+  background-color: rgb(222, 125, 11);
+}
+
+.cover {
+  position: absolute;
+  background-color: rgb(222, 125, 11);
+  left:0;
+  top:0;
+  height:100vh;
+  width: 100vw;
+}
+
+@keyframes opacity{
+	0% {
+		 opacity: 100%;
+	}
+	100% {
+		opacity: 30%;
+	}
+}
+
+@keyframes stretching {
+  0%{
+    height: 50px;
+    width: 80px;
+  }
+
+  100%{
+    width: 300px;
+  }
+}
+
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px) {
+  .B{
+    top: 100px;
+    left: -160px;
+  }
+  .U{
+    top: 700px;
+    left: 130px;
+  }
+
+  .R{
+    top: 1300px;
+    left: -750px;
+  }
+
+  .Y{
+    top: 1900px;
+    left: -1020px;
+  }
+}
